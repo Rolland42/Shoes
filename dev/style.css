@@ -1,0 +1,145 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+
+.body{
+    max-Width:480px;
+    height:auto;
+    width:auto;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    margin-bottom:5%;
+    height:20em;
+    background-image: url(assets/images/header.jpg);
+    width:auto;
+    background-repeat: no-repeat;
+  }
+
+  .h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color:#302663;
+    font-family: "pinyon_script", cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  /*navbar*/
+
+    .menu{
+
+        font-style: normal;
+        font-family: "lora regular";
+        font-size: 15px;
+        text-align:left;
+        
+    }
+ 
+
+  /*picto*/
+
+  .picto{
+    width:15px;
+    height:15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 95%;
+  }
+
+  /*container*/
+
+  .column{
+    
+    
+    flex-direction: column;
+    
+  }
+
+  .ballerie{
+      /* float:left; */
+      width: 25px;
+      height: 25px;
+      position:relative;
+     /*  z-index: 6; */
+      margin-bottom: 10px;
+  }
+
+  .mona{
+    /* float:left; */
+    width: 25px;
+    height:25px;
+    position:absolute;
+    /* z-index: 4; */
+    margin-bottom: 15px;
+}
+
+ .ballerine{
+    /* float:left; */
+    width: 25px;
+    height:25px;
+    position: relative;
+    /* z-index: 1; */
+    margin-bottom: 20px;
+}
+
+
+
+  .p{
+      font-family: "lora regular";
+      font-size: 18px;
+      font-style: normal;
+      
+  }
+
+  /*footer*/
+  .footer{
+    font-family: "lora regular";
+    font-size: 10px;
+    font-style: normal;
+}
+
+/*separation*/
+ .hr{
+    text-decoration-line:underline;
+    text-decoration-color:#2a3132;
+    text-decoration-style:dashed;
+    border-top:black solid 5px;
+   }
+
+
+
+   .item{
+       font-family: "lora regular";
+       font-size: 14px;
+       font-style: normal;
+   }
+   .h2{
+       text-align: left;
+   }
+
+   .h3{
+    text-align: right;
+   }
+
+  
