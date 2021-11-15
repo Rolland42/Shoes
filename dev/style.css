@@ -19,20 +19,20 @@ time, mark, audio, video {
 	vertical-align: baseline;
 } */
 
-.body{
-    max-Width:480px;
-    height:auto;
-    width:auto;
-}
+/* .body{
+    /* max-Width:480px; */
+   /* height:auto;
+    width:100%;
+} */
 
 .header {
     position: relative;
     text-align: center;
-    margin-bottom:5%;
-    height:20em;
+     height:50vh; 
     background-image: url(assets/images/header.jpg);
-    width:auto;
+    width:100%;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .h1 {
